@@ -158,8 +158,8 @@ a:hover {
 }
 
 h1  {
-	width:250px;
-	font-size:42px;
+	width: 382px;
+	font-size: 34px;
 	color:#1b4491;
 	margin-bottom:3px;
 	clear:both;
@@ -169,7 +169,7 @@ h1 span {
 	font-size:21px;
 	display:block;
 	color:#1b4491;
-	margin-top:-5px;
+	margin-top: 24px;
 }
 
 h2 {
