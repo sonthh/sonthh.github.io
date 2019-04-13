@@ -1,79 +1,314 @@
 <html>
-<head><meta http-equiv=Content-Type content="text/html; charset=UTF-8">
-<style type="text/css">
-<!--
-span.cls_002{font-family:Arial,serif;font-size:24.5px;color:rgb(13,34,82);font-weight:bold;font-style:normal;text-decoration: none}
-div.cls_002{font-family:Arial,serif;font-size:24.5px;color:rgb(13,34,82);font-weight:bold;font-style:normal;text-decoration: none}
-span.cls_004{font-family:Arial,serif;font-size:10.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
-div.cls_004{font-family:Arial,serif;font-size:10.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
-span.cls_005{font-family:Arial,serif;font-size:10.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
-div.cls_005{font-family:Arial,serif;font-size:10.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
-span.cls_006{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
-div.cls_006{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
-span.cls_007{font-family:Arial,serif;font-size:11.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
-div.cls_007{font-family:Arial,serif;font-size:11.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
-span.cls_009{font-family:Arial,serif;font-size:11.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
-div.cls_009{font-family:Arial,serif;font-size:11.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
-span.cls_008{font-family:Arial,serif;font-size:11.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
-div.cls_008{font-family:Arial,serif;font-size:11.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
-span.cls_015{font-family:Arial,serif;font-size:10.1px;color:rgb(0,0,255);font-weight:normal;font-style:normal;text-decoration: underline}
-div.cls_015{font-family:Arial,serif;font-size:10.1px;color:rgb(0,0,255);font-weight:normal;font-style:normal;text-decoration: none}
--->
-</style>
-<script type="text/javascript" src="19dc3cce-5dd4-11e9-9d71-0cc47a792c0a_id_19dc3cce-5dd4-11e9-9d71-0cc47a792c0a_files/wz_jsgraphics.js"></script>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style type="text/css">
+        span.cls_002 {
+            font-family: Arial, serif;
+            font-size: 24.5px;
+            color: rgb(13, 34, 82);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_002 {
+            font-family: Arial, serif;
+            font-size: 24.5px;
+            color: rgb(13, 34, 82);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        span.cls_004 {
+            font-family: Arial, serif;
+            font-size: 10.1px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_004 {
+            font-family: Arial, serif;
+            font-size: 10.1px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        span.cls_005 {
+            font-family: Arial, serif;
+            font-size: 10.1px;
+            color: rgb(0, 0, 0);
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_005 {
+            font-family: Arial, serif;
+            font-size: 10.1px;
+            color: rgb(0, 0, 0);
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        span.cls_006 {
+            font-family: Arial, serif;
+            font-size: 12.1px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_006 {
+            font-family: Arial, serif;
+            font-size: 12.1px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        span.cls_007 {
+            font-family: Arial, serif;
+            font-size: 11.1px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_007 {
+            font-family: Arial, serif;
+            font-size: 11.1px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        span.cls_009 {
+            font-family: Arial, serif;
+            font-size: 11.1px;
+            color: rgb(0, 0, 0);
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_009 {
+            font-family: Arial, serif;
+            font-size: 11.1px;
+            color: rgb(0, 0, 0);
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        span.cls_008 {
+            font-family: Arial, serif;
+            font-size: 11.1px;
+            color: rgb(0, 0, 0);
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        div.cls_008 {
+            font-family: Arial, serif;
+            font-size: 11.1px;
+            color: rgb(0, 0, 0);
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        span.cls_015 {
+            font-family: Arial, serif;
+            font-size: 10.1px;
+            color: rgb(0, 0, 255);
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: underline
+        }
+
+        div.cls_015 {
+            font-family: Arial, serif;
+            font-size: 10.1px;
+            color: rgb(0, 0, 255);
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        -->
+    </style>
+    <script type="text/javascript" src="19dc3cce-5dd4-11e9-9d71-0cc47a792c0a_id_19dc3cce-5dd4-11e9-9d71-0cc47a792c0a_files/wz_jsgraphics.js"></script>
 </head>
+
 <body>
-<div style="position:absolute;left:50%;margin-left:-300px;top:0px;width:600px;height:841px;border-style:outset;overflow:hidden">
-<div style="position:absolute;left:0px;top:0px">
-<img src="images/background1.jpg" width=600 height=841></div>
-<div style="position:absolute;left:177.67px;top:48.54px" class="cls_002"><span class="cls_002">Trần Hữu Hồng Sơn</span></div>
-<div style="position:absolute;left:177.67px;top:81.42px" class="cls_004"><span class="cls_004">Day of birth:</span></div>
-<div style="position:absolute;left:261.46px;top:81.42px" class="cls_005"><span class="cls_005">20/10/1998</span></div>
-<div style="position:absolute;left:177.67px;top:99.90px" class="cls_004"><span class="cls_004">Gender:</span></div>
-<div style="position:absolute;left:261.46px;top:99.90px" class="cls_005"><span class="cls_005">Male</span></div>
-<div style="position:absolute;left:177.67px;top:118.41px" class="cls_004"><span class="cls_004">Phone:</span></div>
-<div style="position:absolute;left:261.46px;top:118.41px" class="cls_005"><span class="cls_005">032.705.3245</span></div>
-<div style="position:absolute;left:177.67px;top:136.89px" class="cls_004"><span class="cls_004">Email:</span></div>
-<div style="position:absolute;left:261.46px;top:136.89px" class="cls_005"><span class="cls_005"> </span><A HREF="mailto:tranhuuhongson@gmail.com">tranhuuhongson@gmail.com</A> </div>
-<div style="position:absolute;left:177.67px;top:155.13px" class="cls_004"><span class="cls_004">Address:</span></div>
-<div style="position:absolute;left:261.46px;top:155.13px" class="cls_005"><span class="cls_005">Thang Binh, Quang Nam, Viet Nam</span></div>
-<div style="position:absolute;left:177.67px;top:173.61px" class="cls_004"><span class="cls_004">University:</span></div>
-<div style="position:absolute;left:261.46px;top:173.61px" class="cls_005"><span class="cls_005"> </span><A HREF="http://fb.com/nguyenvana">Da</A> Nang University of Science and Technology</div>
-<div style="position:absolute;left:177.67px;top:192.09px" class="cls_004"><span class="cls_004">Apply position:    </span><span class="cls_005">Java fresher</span></div>
-<div style="position:absolute;left:54.02px;top:227.87px" class="cls_006"><span class="cls_006">OBJECTIVE</span></div>
-<div style="position:absolute;left:54.02px;top:247.07px" class="cls_007"><span class="cls_007">Short-term:</span></div>
-<div style="position:absolute;left:72.02px;top:264.11px" class="cls_009"><span class="cls_009">•</span><span class="cls_008">   To improve programming skills</span></div>
-<div style="position:absolute;left:72.02px;top:281.42px" class="cls_009"><span class="cls_009">•</span><span class="cls_008">   To learn new technology</span></div>
-<div style="position:absolute;left:54.02px;top:297.98px" class="cls_007"><span class="cls_007">Long-term:</span></div>
-<div style="position:absolute;left:71.54px;top:315.26px" class="cls_009"><span class="cls_009">•</span><span class="cls_008">   To become a java developer</span></div>
-<div style="position:absolute;left:54.02px;top:348.14px" class="cls_006"><span class="cls_006">EDUCATION</span></div>
-<div style="position:absolute;left:198.55px;top:374.56px" class="cls_004"><span class="cls_004">Tieu La High School</span></div>
-<div style="position:absolute;left:54.02px;top:376.96px" class="cls_005"><span class="cls_005">09/2013 - 09/2016</span></div>
-<div style="position:absolute;left:198.55px;top:410.56px" class="cls_004"><span class="cls_004">Da Nang University of Science And Technology</span></div>
-<div style="position:absolute;left:54.02px;top:412.96px" class="cls_005"><span class="cls_005">10/2016 - Present</span></div>
-<div style="position:absolute;left:198.55px;top:426.16px" class="cls_005"><span class="cls_005">Major: Information technology</span></div>
-<div style="position:absolute;left:52.34px;top:446.34px" class="cls_006"><span class="cls_006">WORK EXPERIENCE</span></div>
-<div style="position:absolute;left:54.02px;top:472.02px" class="cls_005"><span class="cls_005">02/2017 - 02/2018</span></div>
-<div style="position:absolute;left:199.27px;top:470.58px" class="cls_004"><span class="cls_004">Study basic programming with C and C++ (OOP)</span></div>
-<div style="position:absolute;left:199.27px;top:485.94px" class="cls_005"><span class="cls_005">Do mini game project, link demo here:</span></div>
-<div style="position:absolute;left:199.27px;top:499.62px" class="cls_015"><span class="cls_015"> </span><A HREF="https://www.youtube.com/watch?v=PzoLDxsLGM0&list=PLaDAxonevj8vVfaFINsjRJ7Zw1a2D5Wsf">https://www.youtube.com/watch?v=PzoLDxsLGM0&list=PLaDAxonevj8vVfaFINsj</A> </div>
-<div style="position:absolute;left:199.27px;top:511.14px" class="cls_015"><span class="cls_015"> </span><A HREF="https://www.youtube.com/watch?v=PzoLDxsLGM0&list=PLaDAxonevj8vVfaFINsjRJ7Zw1a2D5Wsf">RJ7Zw1a2D5Wsf</A> </div>
-<div style="position:absolute;left:54.02px;top:547.41px" class="cls_005"><span class="cls_005">02/2018 - 11/2018</span></div>
-<div style="position:absolute;left:199.27px;top:545.97px" class="cls_004"><span class="cls_004">Study Java and do project at Vinaenter Programmer Training Center</span></div>
-<div style="position:absolute;left:199.27px;top:561.33px" class="cls_005"><span class="cls_005">Do project about news (servlet + jsp + mysql)</span></div>
-<div style="position:absolute;left:199.27px;top:575.25px" class="cls_005"><span class="cls_005">Do project about shopping cart (spring mvc + jsp + mysql)</span></div>
-<div style="position:absolute;left:52.34px;top:601.41px" class="cls_006"><span class="cls_006">SKILLS</span></div>
-<div style="position:absolute;left:54.02px;top:628.07px" class="cls_007"><span class="cls_007">Programming Language</span></div>
-<div style="position:absolute;left:199.27px;top:628.07px" class="cls_008"><span class="cls_008">Front end: html, css, bootstrap, javascript, jquery</span></div>
-<div style="position:absolute;left:199.27px;top:645.35px" class="cls_008"><span class="cls_008">Backend: javacore, jsp, servlet, spring mvc, (studying hibernate</span></div>
-<div style="position:absolute;left:199.27px;top:662.87px" class="cls_008"><span class="cls_008">, thymeleaf)</span></div>
-<div style="position:absolute;left:54.02px;top:695.54px" class="cls_007"><span class="cls_007">Database</span></div>
-<div style="position:absolute;left:199.27px;top:695.54px" class="cls_008"><span class="cls_008">MySQL</span></div>
-<div style="position:absolute;left:54.02px;top:728.18px" class="cls_007"><span class="cls_007">Tools</span></div>
-<div style="position:absolute;left:199.27px;top:728.18px" class="cls_008"><span class="cls_008">Eclipse, Maven</span></div>
-<div style="position:absolute;left:52.34px;top:764.42px" class="cls_006"><span class="cls_006">INTERESTS</span></div>
-<div style="position:absolute;left:52.10px;top:782.92px" class="cls_008"><span class="cls_008">I like playing football, billiards and listenning to music…</span></div>
-</div>
+    <div style="position:absolute;left:50%;margin-left:-300px;top:0px;width:600px;height:841px;border-style:outset;overflow:hidden">
+        <div style="position:absolute;left:0px;top:0px">
+            <img src="images/background1.jpg" width="600" height="841"></div>
+        <div style="position:absolute;left:177.67px;top:48.54px" class="cls_002"><span class="cls_002">Trần Hữu Hồng
+                Sơn</span></div>
+        <div style="position:absolute;left:177.67px;top:81.42px" class="cls_004"><span class="cls_004">Day of birth:</span></div>
+        <div style="position:absolute;left:261.46px;top:81.42px" class="cls_005"><span class="cls_005">20/10/1998</span></div>
+        <div style="position:absolute;left:177.67px;top:99.90px" class="cls_004"><span class="cls_004">Gender:</span></div>
+        <div style="position:absolute;left:261.46px;top:99.90px" class="cls_005"><span class="cls_005">Male</span></div>
+        <div style="position:absolute;left:177.67px;top:118.41px" class="cls_004"><span class="cls_004">Phone:</span></div>
+        <div style="position:absolute;left:261.46px;top:118.41px" class="cls_005"><span class="cls_005">032.705.3245</span></div>
+        <div style="position:absolute;left:177.67px;top:136.89px" class="cls_004"><span class="cls_004">Email:</span></div>
+        <div style="position:absolute;left:261.46px;top:136.89px" class="cls_005"><span class="cls_005"> </span><a href="mailto:tranhuuhongson@gmail.com">tranhuuhongson@gmail.com</a>
+        </div>
+        <div style="position:absolute;left:177.67px;top:155.13px" class="cls_004"><span class="cls_004">Address:</span></div>
+        <div style="position:absolute;left:261.46px;top:155.13px" class="cls_005"><span class="cls_005">Thang Binh,
+                Quang Nam, Viet Nam</span></div>
+        <div style="position:absolute;left:177.67px;top:173.61px" class="cls_004"><span class="cls_004">University:</span></div>
+        <div style="position:absolute;left:261.46px;top:173.61px" class="cls_005"><span class="cls_005"> </span><a href="http://fb.com/nguyenvana"></a>Da
+            Nang University of Science and Technology</div>
+        <div style="position:absolute;left:177.67px;top:192.09px" class="cls_004"><span class="cls_004">Apply position:
+            </span><span class="cls_005" style="
+    position: relative;
+    left: 6px;
+"> Java fresher</span></div>
+        <div style="position:absolute;left:54.02px;top:227.87px" class="cls_006"><span class="cls_006">OBJECTIVE</span></div>
+        <div style="position:absolute;left:54.02px;top:247.07px" class="cls_007"><span class="cls_007">Short-term:</span></div>
+        <div style="position:absolute;left:72.02px;top:264.11px" class="cls_009"><span class="cls_009">•</span><span
+                class="cls_008"> To improve programming skills</span></div>
+        <div style="position:absolute;left:72.02px;top:281.42px" class="cls_009"><span class="cls_009">•</span><span
+                class="cls_008"> To learn new technology</span></div>
+        <div style="position:absolute;left:54.02px;top:297.98px" class="cls_007"><span class="cls_007">Long-term:</span></div>
+        <div style="position:absolute;left:71.54px;top:315.26px" class="cls_009"><span class="cls_009">•</span><span
+                class="cls_008"> To become a java developer</span></div>
+        <div style="position:absolute;left:54.02px;top:348.14px" class="cls_006"><span class="cls_006">EDUCATION</span></div>
+        <div style="position:absolute;left:198.55px;top:374.56px" class="cls_004"><span class="cls_004">Tieu La High
+                School</span></div>
+        <div style="position:absolute;left:54.02px;top:376.96px" class="cls_005"><span class="cls_005">09/2013 -
+                09/2016</span></div>
+        <div style="position:absolute;left:198.55px;top:410.56px" class="cls_004"><span class="cls_004">Da Nang
+                University of Science And Technology</span></div>
+        <div style="position:absolute;left:54.02px;top:412.96px" class="cls_005"><span class="cls_005">10/2016 -
+                Present</span></div>
+        <div style="position:absolute;left:198.55px;top:426.16px" class="cls_005"><span class="cls_005">Major:
+                Information technology</span></div>
+        <div style="position:absolute;left:52.34px;top:446.34px" class="cls_006"><span class="cls_006">WORK EXPERIENCE</span></div>
+        <div style="position:absolute;left:54.02px;top:472.02px" class="cls_005"><span class="cls_005">02/2017 -
+                02/2018</span></div>
+        <div style="position:absolute;left:199.27px;top:470.58px" class="cls_004"><span class="cls_004">Study basic
+                programming with C and C++ (OOP)</span></div>
+        <div style="position:absolute;left:199.27px;top:485.94px" class="cls_005"><span class="cls_005">Do mini game
+                project, link demo here:</span></div>
+        <div style="position:absolute;left:199.27px;top:499.62px" class="cls_015"><span class="cls_015"> </span><a href="https://www.youtube.com/watch?v=PzoLDxsLGM0&amp;list=PLaDAxonevj8vVfaFINsjRJ7Zw1a2D5Wsf">https://www.youtube.com/watch?v=PzoLDxsLGM0&amp;list=PLaDAxonevj8vVfaFINsj</a>
+        </div>
+        <div style="position:absolute;left:199.27px;top:511.14px" class="cls_015"><span class="cls_015"> </span><a href="https://www.youtube.com/watch?v=PzoLDxsLGM0&amp;list=PLaDAxonevj8vVfaFINsjRJ7Zw1a2D5Wsf">RJ7Zw1a2D5Wsf</a>
+        </div>
+        <div style="position:absolute;left:54.02px;top:547.41px" class="cls_005"><span class="cls_005">02/2018 -
+                11/2018</span></div>
+        <div style="position:absolute;left:199.27px;top:545.97px" class="cls_004"><span class="cls_004">Study Java and
+                do project at Vinaenter Programmer Training Center</span></div>
+        <div style="position:absolute;left:199.27px;top:561.33px" class="cls_005"><span class="cls_005">Do project
+                about news (servlet + jsp + mysql)</span></div>
+        <div style="position:absolute;left:199.27px;top:575.25px" class="cls_005"><span class="cls_005">Do project
+                about shopping cart (spring mvc + jsp + mysql)</span></div>
+        <div style="position:absolute;left:52.34px;top:601.41px" class="cls_006"><span class="cls_006">SKILLS</span></div>
+        <div style="position:absolute;left:54.02px;top:628.07px" class="cls_007"><span class="cls_007">Programming
+                Language</span></div>
+        <div style="position:absolute;left:199.27px;top:628.07px" class="cls_008"><span class="cls_008">Front end:
+                html, css, bootstrap, javascript, jquery</span></div>
+        <div style="position:absolute;left:199.27px;top:645.35px" class="cls_008"><span class="cls_008">Backend:
+                javacore, jsp, servlet, spring mvc, (studying hibernate</span></div>
+        <div style="position:absolute;left:199.27px;top:662.87px" class="cls_008"><span class="cls_008">, thymeleaf)</span></div>
+        <div style="position:absolute;left:54.02px;top:695.54px" class="cls_007"><span class="cls_007">Database</span></div>
+        <div style="position:absolute;left:199.27px;top:695.54px" class="cls_008"><span class="cls_008">MySQL</span></div>
+        <div style="position:absolute;left:54.02px;top:728.18px" class="cls_007"><span class="cls_007">Tools</span></div>
+        <div style="position:absolute;left:199.27px;top:728.18px" class="cls_008"><span class="cls_008">Eclipse, Maven</span></div>
+        <div style="position:absolute;left:52.34px;top:764.42px" class="cls_006"><span class="cls_006">INTERESTS</span></div>
+        <div style="position:absolute;left:52.10px;top:782.92px" class="cls_008"><span class="cls_008">I like playing
+                football, billiards and listenning to music…</span></div>
+    </div>
+
+    <!-- Code injected by live-server -->
+    <script type="text/javascript">
+        // <![CDATA[  <-- For SVG support
+        if ('WebSocket' in window) {
+            (function () {
+                function refreshCSS() {
+                    var sheets = [].slice.call(document.getElementsByTagName("link"));
+                    var head = document.getElementsByTagName("head")[0];
+                    for (var i = 0; i < sheets.length; ++i) {
+                        var elem = sheets[i];
+                        head.removeChild(elem);
+                        var rel = elem.rel;
+                        if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                            var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                            elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                        }
+                        head.appendChild(elem);
+                    }
+                }
+                var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+                var address = protocol + window.location.host + window.location.pathname + '/ws';
+                var socket = new WebSocket(address);
+                socket.onmessage = function (msg) {
+                    if (msg.data == 'reload') window.location.reload();
+                    else if (msg.data == 'refreshcss') refreshCSS();
+                };
+                if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+                    console.log('Live reload enabled.');
+                    sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+                }
+            })();
+        }
+        else {
+            console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+        }
+	// ]]>
+    </script>
+    <!-- Code injected by live-server -->
+    <script type="text/javascript">
+        // <![CDATA[  <-- For SVG support
+        if ('WebSocket' in window) {
+            (function () {
+                function refreshCSS() {
+                    var sheets = [].slice.call(document.getElementsByTagName("link"));
+                    var head = document.getElementsByTagName("head")[0];
+                    for (var i = 0; i < sheets.length; ++i) {
+                        var elem = sheets[i];
+                        head.removeChild(elem);
+                        var rel = elem.rel;
+                        if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                            var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                            elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                        }
+                        head.appendChild(elem);
+                    }
+                }
+                var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+                var address = protocol + window.location.host + window.location.pathname + '/ws';
+                var socket = new WebSocket(address);
+                socket.onmessage = function (msg) {
+                    if (msg.data == 'reload') window.location.reload();
+                    else if (msg.data == 'refreshcss') refreshCSS();
+                };
+                if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+                    console.log('Live reload enabled.');
+                    sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+                }
+            })();
+        }
+        else {
+            console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+        }
+	// ]]>
+    </script>
 
 </body>
+
 </html>
