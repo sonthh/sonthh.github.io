@@ -186,6 +186,9 @@ body {
     .page-header {
         flex-wrap: wrap;
     }
+    .page-content {
+        margin-left: 0px !important;
+    }
 }
 @media (max-width: 576px) {
     
