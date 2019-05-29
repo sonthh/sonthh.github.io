@@ -174,8 +174,9 @@ body {
 }
 @media (max-width: 768px) {
     .page-wrapper aside.page-sidebar {
-        width: 0px !important;
+        margin-top: 100px;
         overflow: hidden;
+        transform: translateX(-100%)
     }
     .page-header .logo {
         width: 100%;
@@ -189,15 +190,17 @@ body {
     .page-content {
         margin-left: 0px !important;
     }
+    
 }
 @media (max-width: 576px) {
     
 }
-
+/*  */
 .page-wrapper aside.page-sidebar {
     transition: 0.2s ease-out;
     position: absolute;
     width: 230px;
+    transform: translateX(-0%);
     background: #f5f3f3;
     min-height: 100%;
     top: 0;
