@@ -1,0 +1,19 @@
+.profile {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+  }
+
+  a, .bio, .phone-number, .email {
+    display: block;
+    text-align: center;
+    margin-top: 6px;
+  }
+}
